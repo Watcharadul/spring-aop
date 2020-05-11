@@ -22,4 +22,9 @@ public class MyController {
         return service.getMyService();
     }
 
+    @GetMapping("/error")
+    public Integer getMyError(){
+        return service.getMyError();
+    }
+
 }
